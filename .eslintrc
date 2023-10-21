@@ -1,0 +1,38 @@
+{
+  "env": {
+    "amd": true,
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "process": true,
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "root": true,
+  "rules": {
+    "class-methods-use-this": "off",
+    "func-names": "off",
+    "no-console": "off",
+    "no-process-exit": "off",
+    "no-prototype-builtins": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "none"
+      }
+    ],
+    "object-shorthand": "off"
+  }
+}
