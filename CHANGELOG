@@ -1,4 +1,10 @@
 =============================================================
+v1.1.0 - 2023-10-21
+=============================================================
+
+- update: Refactor js-class-hydrator module to TypeScript. This commit refactors the js-class-hydrator module from JavaScript to TypeScript and cleans up the codebase. As part of the refactoring, the .babelrc and .eslintrc files were deleted, new type definitions were created, and the hydrate.js file was rewritten in TypeScript and logically divided into smaller functions for better readability and maintainability. Also adjusted related configuration files for compatibility with TypeScript;
+
+=============================================================
 v1.0.0 - 2023-10-21
 =============================================================
 

@@ -14,17 +14,16 @@
       "url": "https://github.com/dylan-ramos"
     }
   ],
-  "description": "This package provides a simple class hydration function.",
   "dependencies": {
     "@dylan-ramos/js-tool": "dylan-ramos/js-tool"
   },
+  "description": "This package provides a simple class hydration function.",
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/eslint-parser": "^7.22.15",
-    "@babel/preset-env": "^7.23.2",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.51.0",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "typescript": "^5.3.3"
   },
   "homepage": "https://github.com/dylan-ramos/js-class-hydrator",
   "keywords": [
@@ -41,7 +40,9 @@
     "url": "https://github.com/dylan-ramos/js-class-hydrator"
   },
   "scripts": {
-    "lint": "npx eslint src && npx prettier -c --config .prettierrc src"
+    "lint": "npx eslint src && npx prettier -c --config .prettierrc src",
+    "build": "npx tsc"
   },
-  "version": "1.0.0"
+  "types": "index.d.ts",
+  "version": "1.1.0"
 }

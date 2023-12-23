@@ -12,10 +12,21 @@
 
 ###> npm ###
 npm-debug.log
+
+package-lock.json
 ###< npm ###
 
 ###> yarn ###
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+yarn-error.log
+
+ .pnp.*
+
 yarn.lock
 yarn-debug.log
-yarn-error.log
 ###< yarn ###

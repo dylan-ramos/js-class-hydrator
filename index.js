@@ -1,3 +1,3 @@
 'use strict'
 
-export { default, hydrate } from './src/hydrate'
+export { default, hydrate } from './dist/hydrate'
